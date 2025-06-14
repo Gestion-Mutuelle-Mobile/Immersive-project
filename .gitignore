@@ -1,0 +1,36 @@
+# Logs
+front/logs
+front/*.log
+front/npm-debug.log*
+front/yarn-debug.log*
+front/yarn-error.log*
+front/pnpm-debug.log*
+front/lerna-debug.log*
+
+front/node_modules
+front/dist
+front/dist-ssr
+front/*.local
+front/*.glb
+front/*.fbx
+*/message_*.mp3
+*/message_*.wav
+*/message_*.json
+
+# Editor directories and files
+front/.vscode/*
+front/!.vscode/extensions.json
+front/.idea
+front/.DS_Store
+front/*.suo
+front/*.ntvs*
+front/*.njsproj
+front/*.sln
+front/*.sw?
+front/*.glb
+
+
+back/.env
+back/node_modules
+back/bin
+back/audios/message_*
